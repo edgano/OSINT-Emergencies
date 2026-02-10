@@ -1,5 +1,8 @@
 {
   "appIsExample": false,
+  "appLayout": {
+    "type": "FLUID"
+  },
   "applicationVersion": 2,
   "collapseInvisibleWidgets": true,
   "color": "#D9E7FF",
@@ -14,8 +17,11 @@
       "isDefault": false
     },
     {
-      "id": "Page2",
+      "id": "Canva",
       "isDefault": false
     }
-  ]
+  ],
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  }
 }

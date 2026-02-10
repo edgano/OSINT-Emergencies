@@ -1,6 +1,7 @@
 {
   "gitSyncId": "698a0a7f9962a96baf5c5797_c4f8d113-2fb7-47dd-88f8-996a861bf46d",
   "unpublishedPage": {
+    "isHidden": false,
     "layouts": [
       {
         "dsl": {
@@ -25,7 +26,7 @@
         }
       }
     ],
-    "name": "Page2",
-    "slug": "page2"
+    "name": "Canva",
+    "slug": "canva"
   }
 }

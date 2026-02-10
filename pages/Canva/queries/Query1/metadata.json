@@ -1,11 +1,11 @@
 {
   "gitSyncId": "698a0a7f9962a96baf5c5797_bd29de43-2e2e-469b-9d9b-5fa78333c958",
-  "id": "Page2_Query1",
+  "id": "Canva_Query1",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT * FROM public.\"messages\" LIMIT 100;",
+      "body": "SELECT * FROM public.\"messages\" LIMIT 500;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -24,7 +24,7 @@
     },
     "dynamicBindingPathList": [],
     "name": "Query1",
-    "pageId": "Page2",
+    "pageId": "Canva",
     "runBehaviour": "AUTOMATIC",
     "userSetOnLoad": false
   }
