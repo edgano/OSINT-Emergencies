@@ -38,7 +38,7 @@
       "mobileTopRow": 0,
       "needsErrorInfo": false,
       "parentColumnSpace": 1,
-      "parentId": "5jiy1nudeh",
+      "parentId": "x2lq5ol1x8",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
@@ -46,8 +46,8 @@
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "6bg1uobik3",
-      "widgetName": "Canvas1"
+      "widgetId": "xcx229qifj",
+      "widgetName": "Canvas1Copy2"
     }
   ],
   "containerStyle": "card",
@@ -63,7 +63,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "1jtdpi2prf",
-  "leftColumn": 1,
+  "leftColumn": 50,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 10,
   "minWidth": 450,
@@ -79,11 +79,11 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 17,
+  "rightColumn": 63,
   "shouldScrollContents": true,
   "topRow": 8,
   "type": "CONTAINER_WIDGET",
   "version": 1,
-  "widgetId": "5jiy1nudeh",
-  "widgetName": "Container_RSS"
+  "widgetId": "x2lq5ol1x8",
+  "widgetName": "Container_OficialSource"
 }
