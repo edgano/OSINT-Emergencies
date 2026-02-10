@@ -1,0 +1,13 @@
+UPDATE public."messages" SET
+		"source" = '{{update_form.fieldState.source.isVisible ? update_form.formData.source : update_form.sourceData.source}}',
+		"source_channel" = '{{update_form.fieldState.source_channel.isVisible ? update_form.formData.source_channel : update_form.sourceData.source_channel}}',
+    "source_message_id" = '{{update_form.fieldState.source_message_id.isVisible ? update_form.formData.source_message_id : update_form.sourceData.source_message_id}}',
+		"url" = '{{update_form.fieldState.url.isVisible ? update_form.formData.url : update_form.sourceData.url}}',
+		"ts" = '{{update_form.fieldState.ts.isVisible ? update_form.formData.ts : update_form.sourceData.ts}}',
+		"ingested_at" = '{{update_form.fieldState.ingested_at.isVisible ? update_form.formData.ingested_at : update_form.sourceData.ingested_at}}',
+		"text" = '{{update_form.fieldState.text.isVisible ? update_form.formData.text : update_form.sourceData.text}}',
+		"lang" = '{{update_form.fieldState.lang.isVisible ? update_form.formData.lang : update_form.sourceData.lang}}',
+		"translated_text" = '{{update_form.fieldState.translated_text.isVisible ? update_form.formData.translated_text : update_form.sourceData.translated_text}}',
+		"country" = '{{update_form.fieldState.country.isVisible ? update_form.formData.country : update_form.sourceData.country}}',
+		"region" = '{{update_form.fieldState.region.isVisible ? update_form.formData.region : update_form.sourceData.region}}'
+	WHERE "id" = {{data_table.selectedRow.id}};

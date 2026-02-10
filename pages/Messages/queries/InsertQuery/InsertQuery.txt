@@ -1,0 +1,28 @@
+INSERT INTO public."messages" (
+	"id",
+	"source",
+	"source_channel",
+	"source_message_id",
+	"url",
+	"ts",
+	"ingested_at",
+	"text",
+	"lang",
+	"translated_text",
+	"country",
+	"region"
+)
+VALUES (
+	'{{insert_form.formData.id}}',
+	'{{insert_form.formData.source}}',
+	'{{insert_form.formData.source_channel}}',
+	'{{insert_form.formData.source_message_id}}',
+	'{{insert_form.formData.url}}',
+	'{{insert_form.formData.ts}}',
+	'{{insert_form.formData.ingested_at}}',
+	'{{insert_form.formData.text}}',
+	'{{insert_form.formData.lang}}',
+	'{{insert_form.formData.translated_text}}',
+	'{{insert_form.formData.country}}',
+	'{{insert_form.formData.region}}'
+);
